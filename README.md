@@ -1,4 +1,5 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+You can use npm also if you dont have yarn installed. go to bottom
 
 ## Available Scripts
 
@@ -66,3 +67,27 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+### npm vs yarn
+
+Install dependencies from package.json: npm install == yarn
+
+
+
+Install a package and add to package.json: npm install package --save == yarn add package
+
+
+
+Install a devDependency to package.json: npm install package --save-dev == yarn add package --dev
+
+
+
+Remove a dependency from package.json: npm uninstall package --save == yarn remove package
+
+
+
+Upgrade a package to its latest version: npm update --save == yarn upgrade
+
+
+
+Install a package globally: npm install package -g == yarn global add package
